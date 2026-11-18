@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e152aa08d3a541a8a36b2ec283c8857, type: 3}
+  m_Name: MantaRay
+  m_EditorClassIdentifier: Assembly-CSharp::FishData
+  <fishName>k__BackingField: manta ray
+  <fishFact>k__BackingField: "The gentle giants of the ray world, manta rays can
+    have wingspans over 7 meters wide! Despite their size, they feed on some of the
+    tiniest creatures in the ocean \u2014 microscopic plankton. They're also believed
+    to be among the most intelligent fish, with the largest brain-to-body ratio of
+    any cold-blooded animal. "
+  <fishImage>k__BackingField: {fileID: 21300000, guid: 4276efc57cd3742c283789b90a443505, type: 3}
+  biome: 1
+  modelPrefabs:
+  - {fileID: 6237884590726109662, guid: bd74cf676f00bed4a82bae9ae5bfe623, type: 3}
+  acceleration: 10
+  turnSpeed: 4
+  slowingSpeed: 0.995
+  maxSpeed: 10
+  horizontalEnabled: 1
+  verticalEnabled: 0
+  colliderRadius: 4
+  cameraRadius: 5

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e152aa08d3a541a8a36b2ec283c8857, type: 3}
+  m_Name: Lionfish
+  m_EditorClassIdentifier: Assembly-CSharp::FishData
+  <fishName>k__BackingField: lionfish
+  <fishFact>k__BackingField: "lionfish are poisonous and invasive. ouch! Beautiful
+    but bold, the lionfish's flowing, feathery spines are actually venomous \u2014
+    a warning to anything thinking about taking a bite. Native to the Indo-Pacific,
+    they've spread to new oceans and are considered one of the most successful (and
+    troublesome) invasive species in marine history. "
+  <fishImage>k__BackingField: {fileID: 21300000, guid: 6a3efc848427d43628559f2dd792b002, type: 3}
+  biome: 1
+  modelPrefabs:
+  - {fileID: 4244871685111295743, guid: 80412a4de2495124cbaa90af2bd5342e, type: 3}
+  acceleration: 11
+  turnSpeed: 0.6
+  slowingSpeed: 0.95
+  maxSpeed: 7
+  horizontalEnabled: 1
+  verticalEnabled: 1
+  colliderRadius: 1.6
+  cameraRadius: 1.2

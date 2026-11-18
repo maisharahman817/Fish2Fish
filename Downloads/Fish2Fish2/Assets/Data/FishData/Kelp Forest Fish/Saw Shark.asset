@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e152aa08d3a541a8a36b2ec283c8857, type: 3}
+  m_Name: Saw Shark
+  m_EditorClassIdentifier: Assembly-CSharp::FishData
+  <fishName>k__BackingField: saw shark
+  <fishFact>k__BackingField: Similar to other sharks, they use electroreceptors called
+    ampullae of Lorenzini to detect the electrical fields of prey, such as fish and
+    crustaceans. Press left shift to dash!
+  <fishImage>k__BackingField: {fileID: 21300000, guid: f4f3f26aae80f470093ee4971b450867, type: 3}
+  biome: 2
+  modelPrefabs:
+  - {fileID: 8670184114396600399, guid: 1f4e33751a0681b4daa1dc31aa785003, type: 3}
+  acceleration: 8
+  turnSpeed: 3
+  slowingSpeed: 0.97
+  maxSpeed: 150
+  horizontalEnabled: 1
+  verticalEnabled: 0
+  colliderRadius: 0.4
+  cameraRadius: 0.7

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e152aa08d3a541a8a36b2ec283c8857, type: 3}
+  m_Name: Stingray_grey
+  m_EditorClassIdentifier: Assembly-CSharp::FishData
+  <fishName>k__BackingField: grey stingray
+  <fishFact>k__BackingField: "One of the larger ray species, grey stingrays are often
+    spotted gliding effortlessly along reef edges and sandy flats. They're curious
+    creatures and are known to approach divers, sometimes in groups \u2014 an experience
+    that's equal parts thrilling and magical. "
+  <fishImage>k__BackingField: {fileID: 21300000, guid: 9104893ff12b9400d855a9c79f18478d, type: 3}
+  biome: 1
+  modelPrefabs:
+  - {fileID: 1692793497532764868, guid: 300051a2ac0e1ff4c92d0c7c07fb7efc, type: 3}
+  acceleration: 15
+  turnSpeed: 1
+  slowingSpeed: 0.95
+  maxSpeed: 10
+  horizontalEnabled: 1
+  verticalEnabled: 0
+  colliderRadius: 4
+  cameraRadius: 5
